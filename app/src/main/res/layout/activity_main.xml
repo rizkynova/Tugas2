@@ -20,7 +20,7 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="380dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/white"
         android:ems="10"
@@ -36,7 +36,7 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="380dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@android:color/white"
         android:ems="10"
@@ -53,20 +53,7 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="380dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/transparan_bg_border"
-        android:text="LOGIN"
-        android:textColor="@android:color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
-        app:layout_constraintVertical_bias="0.050000012" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="380dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:background="@drawable/transparan_bg_border"
         android:text="LOGIN"
@@ -91,11 +78,11 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="380dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:background="@drawable/transparan_bg_border"
         android:drawableLeft="@drawable/ic_welcome_fb_login"
-        android:paddingLeft="70dp"
+        android:paddingLeft="50dp"
         android:text="CONNECT WITH FACEBOOK"
         android:textAlignment="viewStart"
         android:textColor="@android:color/white"
@@ -110,7 +97,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="doesn't have account?"
+        android:text="doesn't have account ?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.364"
@@ -126,7 +113,7 @@
         android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintHorizontal_bias="0.68"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4"
         app:layout_constraintVertical_bias="0.13999999" />
