@@ -5,14 +5,23 @@ import androidx.appcompat.widget.Toolbar;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import org.w3c.dom.Text;
 
 public class register extends AppCompatActivity {
+    EditText bloodtipe;
     Toolbar toolbar;
+    private Spinner spinnerz;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-
         //toolbar
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("Register");
@@ -27,4 +36,5 @@ public class register extends AppCompatActivity {
             }
         });
     }
+
 }
