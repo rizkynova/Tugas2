@@ -65,6 +65,7 @@
         android:layout_marginTop="52dp"
         android:background="@drawable/transparan_bg_border"
         android:text="Verify"
+        android:textColor="@color/design_default_color_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
